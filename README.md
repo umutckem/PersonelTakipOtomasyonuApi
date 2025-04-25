@@ -34,7 +34,9 @@ Swagger / OpenAPI
 AutoMapper
 
 🚀 How to Run
+
 Prerequisites
+
 .NET 8 SDK
 
 SQL Server (local or cloud-based)
