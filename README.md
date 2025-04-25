@@ -20,6 +20,7 @@ Authorize roles (e.g., Admin, Staff)
 ⚠️ Note: This repository only contains the API layer. The MAUI client is developed in a separate project.
 
 🧰 Tech Stack
+
 ASP.NET Core 8 Web API
 
 Entity Framework Core
