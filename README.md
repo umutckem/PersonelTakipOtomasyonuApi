@@ -4,7 +4,7 @@ Bu proje, Personel Takip Otomasyonu sistemi için geliştirilen ASP.NET Core Web
 API, çapraz platform desteği için ayrı geliştirilen bir .NET MAUI istemcisi tarafından kullanılmak üzere tasarlanmıştır.
 
 
-## 📌 Project Purpose
+## 📌 Proje Amacı
 
 
 öneticilerin aşağıdaki işlemleri gerçekleştirebildiği bir personel yönetim sistemi için RESTful API hizmeti sağlamaktır:
