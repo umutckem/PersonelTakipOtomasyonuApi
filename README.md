@@ -1,42 +1,45 @@
-#  PersonelTakipOtomasyonuApi
+##  PersonelTakipOtomasyonuApi
+
+Bu proje, Personel Takip Otomasyonu sistemi için geliştirilen ASP.NET Core Web API tabanlı arka uç uygulamasıdır. Tüm iş mantığı, veri erişimi ve kimlik doğrulama işlevlerini sağlar.
+API, çapraz platform desteği için ayrı geliştirilen bir .NET MAUI istemcisi tarafından kullanılmak üzere tasarlanmıştır.
 
 
-This is the backend API for the Personnel Tracking Automation system, built with ASP.NET Core Web API. It handles all business logic, data access, and authentication functionalities.
-The API is designed to be consumed by a separate .NET MAUI client application for cross-platform usage.
-
-📌 Project Purpose
+## 📌 Project Purpose
 
 
-To provide a RESTful backend service for a personnel management system where administrators can:
+öneticilerin aşağıdaki işlemleri gerçekleştirebildiği bir personel yönetim sistemi için RESTful API hizmeti sağlamaktır:
 
-Manage personnel records
+- Personel kayıtlarını yönetme
 
-Track check-in/check-out times
+- Rol tabanlı yetkilendirme (örn. Admin, Personel)
 
-Authenticate users via JWT
+⚠️ Not: Bu depo yalnızca API katmanını içerir. .NET MAUI istemcisi farklı bir projede geliştirilmektedir.
 
-Authorize roles (e.g., Admin, Staff)
 
-⚠️ Note: This repository only contains the API layer. The MAUI client is developed in a separate project.
+## 🧰 Kullanılan Teknolojiler
 
-🧰 Tech Stack
+- ASP.NET Core 8 Web API
 
-ASP.NET Core 8 Web API
+- Entity Framework Core
 
-Entity Framework Core
+- SQL Server
 
-SQL Server
+- Swagger / OpenAPI
 
-JWT Authentication
+- AutoMapper
 
-Swagger / OpenAPI
-
-AutoMapper
-
-🚀 How to Run
-
-Prerequisites
+## 📌 Gereksinimler:
 
 .NET 8 SDK
 
-SQL Server (local or cloud-based)
+SQL Server (yerel veya bulut tabanlı)
+
+## Ekran Görüntüleri
+
+<img width="1780" height="562" alt="image" src="https://github.com/user-attachments/assets/c8be22a3-4416-401a-afd1-1918981ac042" />
+
+<img width="1616" height="523" alt="image" src="https://github.com/user-attachments/assets/69c81e1d-c556-443c-8849-686c3c6dc07b" />
+
+<img width="1608" height="464" alt="image" src="https://github.com/user-attachments/assets/5d4117bf-f569-41d8-a5e0-6f1dc6457a7b" />
+
+<img width="1594" height="427" alt="image" src="https://github.com/user-attachments/assets/49c53354-2fa4-4096-9828-690ecbdf12e3" />
